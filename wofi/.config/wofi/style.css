@@ -3,30 +3,33 @@ window {
   border: 2px groove;
   border-color: rgba(0, 200, 255, 1) rgba(0, 220, 255, 1) rgba(0, 210, 255, 1);
   border-radius: 20px;
-  background-color: rgba(30, 30, 50, 0.82);
+  background-color: rgba(10, 10, 10, 0.82);
   filter: blur(22px);
 }
 
+/* The Search Bar Box */
 #input {
   margin: 5px;
   border: none;
+  font-size: 16pt;
   border-radius: 10px;
   color: #d8dee9;
-  background-color: rgba(30, 30, 50, 0.82);
+  background-color: rgba(10, 10, 10, 0.82);
 }
 
+/* The Listed Apps Box */
 #inner-box {
   margin: 5px;
   border: none;
   border-radius: 10px;
-  background-color: rgba(30, 30, 50, 0.82);
+  background-color: rgba(10, 10, 10, 0.82);
 }
 
+/* Weird ass thing, don't edit this */
 #outer-box {
   margin: 5px;
   border: none;
   border-radius: 40px;
-  /* background-color: rgba(30, 30,); */
 }
 
 #scroll {
@@ -34,14 +37,16 @@ window {
   border: none;
 }
 
+/* App List Text (Not Search Bar Text) */
 #text {
   margin: 5px;
   border: none;
   color: #d8dee9;
+  font-size: 14pt;
 }
 
 #entry:selected {
-  background-color: rgba(60, 60, 80, 0.82);
+  background-color: rgba(50, 190, 212, 0.82);
   border: none;
-  border-radius: 10px;
+  border-radius: 14px;
 }

@@ -1,57 +1,62 @@
 [[language]]
 name = "go"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 [[language]]
 name = "zig"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 [[language]]
 name = "rust"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 [[language]]
 name = "c"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 [[language]]
 name = "cpp"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 [[language]]
 name = "hyprlang"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 [[language]]
 name = "bash"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 [[language]]
 name = "toml"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 [[language]]
 name = "lua"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 [[language]]
 name = "javascript"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
 [[language]]
 name = "html"
-auto-format = false
+auto-format = true
 indent = { tab-width = 4, unit = "    " }
+
+[language-server.vscode-html-language-server]
+command = "vscode-html-language-server"
+args = ["--stdio"]
+config = { provideFormatter = true }
 
 [language-server.rust-analyzer]
 command = "rust-analyzer"
