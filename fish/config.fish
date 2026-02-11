@@ -8,7 +8,6 @@ end
 alias music="rmpc"
 alias lg="lazygit"
 alias vi="nvim"
-alias ls="lla"
 alias peru="paru --bottomup"
 alias cal="khal calendar"
 alias cali="khal interactive"
