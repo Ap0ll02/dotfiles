@@ -15,12 +15,13 @@ alias nv="neovide"
 alias code="neovide"
 alias sf="source ~/.config/fish/config.fish"
 alias sso="ssh olympus"
+alias anime="ani-cli"
 
 # --------------
 # Shell and Other Inits
 # --------------
 starship init fish | source
-zoxide init fish | source
+zoxide init fish --cmd cd| source
 
 # GHCUP Glasgow Haskell Compiler
 # set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin /home/apollo/.ghcup/bin $PATH # ghcup-env
